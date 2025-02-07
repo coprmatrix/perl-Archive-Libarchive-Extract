@@ -1,0 +1,6 @@
+<services>
+  <service name="cpanspec" mode="manual">
+    <param name="source">Archive::Libarchive::Extract</param>
+    <param name="add-provides">perl(Archive::Libarchive::Extract)</param>
+  </service>
+</services>
